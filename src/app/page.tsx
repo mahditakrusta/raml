@@ -63,7 +63,7 @@ export default async function HomePage() {
       <section className="relative h-[85vh] min-h-[600px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/34259428/pexels-photo-34259428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1600"
+            src="https://postimg.cc/tYjN973T"
             alt="سفالگری دست‌ساز"
             className="w-full h-full object-cover"
           />
