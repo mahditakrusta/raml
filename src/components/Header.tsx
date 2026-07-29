@@ -41,6 +41,9 @@ export default function Header() {
             <Link href="/products?category=گردنبند" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
               گردنبند
             </Link>
+              <Link href="/products?category=decorative" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
+              دکوراتیو
+            </Link>
           </nav>
 
           {/* Cart & Mobile Menu */}
