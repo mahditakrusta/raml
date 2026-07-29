@@ -15,10 +15,10 @@ export default function Header() {
           {/* Logo */}
          <Link href="/" className="flex items-center gap-2 group">
   <img
-    src="/logo.png"
-    alt="رَمل"
-    className="w-10 h-10 md:w-12 md:h-12 object-contain rounded-full shadow-lg group-hover:shadow-xl transition-shadow"
-  />
+  src="/logo.png"
+  alt="رَمل"
+  className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-full"
+/>
   <div className="flex flex-col">
     <span className="text-xl md:text-2xl font-bold text-clay-800 tracking-tight">رَمل</span>
     <span className="text-[10px] md:text-xs text-earth-500 -mt-1">سفال و سرامیک دست‌ساز</span>
