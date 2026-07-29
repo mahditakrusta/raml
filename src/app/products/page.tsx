@@ -91,7 +91,7 @@ export default async function ProductsPage({ searchParams }: Props) {
       className="absolute inset-0 h-full w-full object-cover"
       />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative pt-60">
-          <h1 className="text-3xl md:text-4xl font-bold">
+          <h1 className="text-3xl md:text-4xl font-bold text-white">
             {currentCategory ? currentCategory.name : search ? `جستجو: ${search}` : "همه محصولات"}
           </h1>
           <p className="text-sand-300 mt-3 text-lg">
