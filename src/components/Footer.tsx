@@ -23,7 +23,7 @@ export default function Footer() {
             <h3 className="font-bold text-white mb-4">دسترسی سریع</h3>
             <ul className="space-y-2.5">
               <li><Link href="/products" className="text-earth-400 hover:text-clay-400 transition-colors text-sm">همه محصولات</Link></li>
-              <li><Link href="/products?category=گلدان‌ها" className="text-earth-400 hover:text-clay-400 transition-colors text-sm">گلدان‌ها</Link></li>
+              <li><Link href="/products?category=Flowerpot" className="text-earth-400 hover:text-clay-400 transition-colors text-sm">گلدان‌ها</Link></li>
               <li><Link href="/products?category=Bracelet" className="text-earth-400 hover:text-clay-400 transition-colors text-sm"> دستبند</Link></li>
               <li><Link href="/products?category=necklace" className="text-earth-400 hover:text-clay-400 transition-colors text-sm"> گردنبند</Link></li>
               <li><Link href="/products?category=decorative" className="text-earth-400 hover:text-clay-400 transition-colors text-sm">دکوراتیو</Link></li>
