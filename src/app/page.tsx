@@ -91,12 +91,7 @@ export default async function HomePage() {
               >
                 مشاهده محصولات
               </Link>
-              <Link
-                href="/products?category=vases"
-                className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-white/20 transition-all"
-              >
-                گلدان‌ها
-              </Link>
+              
             </div>
           </div>
         </div>
