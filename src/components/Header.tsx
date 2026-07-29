@@ -36,10 +36,10 @@ export default function Header() {
               گلدان‌ها
             </Link>
             <Link href="/products?category=tableware" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
-              ظروف سفره
+              گردنبند
             </Link>
             <Link href="/products?category=tea-sets" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
-              ست چای‌خوری
+              دستبند
             </Link>
           </nav>
 
