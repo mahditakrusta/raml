@@ -33,7 +33,7 @@ export default function Header() {
               محصولات
             </Link>
             <Link href="/products?category=vases" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
-              گلدان‌ها
+              گلدان‌
             </Link>
             <Link href="/products?category=دستبند" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
               دستبند
@@ -88,13 +88,13 @@ export default function Header() {
               همه محصولات
             </Link>
             <Link href="/products?category=vases" onClick={() => setMobileMenuOpen(false)} className="text-earth-700 hover:text-clay-600 transition-colors font-medium py-2 border-b border-sand-50">
-              گلدان‌ها
+              گلدان‌
             </Link>
-            <Link href="/products?category=tableware" onClick={() => setMobileMenuOpen(false)} className="text-earth-700 hover:text-clay-600 transition-colors font-medium py-2 border-b border-sand-50">
-              ظروف سفره
+            <Link href="/products?category=دستبند" onClick={() => setMobileMenuOpen(false)} className="text-earth-700 hover:text-clay-600 transition-colors font-medium py-2 border-b border-sand-50">
+              دستبند
             </Link>
-            <Link href="/products?category=tea-sets" onClick={() => setMobileMenuOpen(false)} className="text-earth-700 hover:text-clay-600 transition-colors font-medium py-2">
-              ست چای‌خوری
+            <Link href="/products?category=گردنبند" onClick={() => setMobileMenuOpen(false)} className="text-earth-700 hover:text-clay-600 transition-colors font-medium py-2">
+              گردنبند
             </Link>
           </nav>
         </div>
