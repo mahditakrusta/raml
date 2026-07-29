@@ -32,7 +32,7 @@ export default function Header() {
             <Link href="/products" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
               محصولات
             </Link>
-            <Link href="/products?category=vases" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
+            <Link href="/products?category=گلدان" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
               گلدان‌
             </Link>
             <Link href="/products?category=دستبند" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
