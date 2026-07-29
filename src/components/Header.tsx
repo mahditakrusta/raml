@@ -13,16 +13,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-gradient-to-br from-clay-500 to-clay-700 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-              <span className="text-white text-lg md:text-xl font-bold">ر</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl md:text-2xl font-bold text-clay-800 tracking-tight">رَمل</span>
-              <span className="text-[10px] md:text-xs text-earth-500 -mt-1">سفال و سرامیک دست‌ساز</span>
-            </div>
-          </Link>
-
+         <Link href="/" className="flex items-center gap-2 group">
+  <img
+    src="/logo.jpg"
+    alt="رَمل"
+    className="w-10 h-10 md:w-12 md:h-12 object-contain rounded-full shadow-lg group-hover:shadow-xl transition-shadow"
+  />
+  <div className="flex flex-col">
+    <span className="text-xl md:text-2xl font-bold text-clay-800 tracking-tight">رَمل</span>
+    <span className="text-[10px] md:text-xs text-earth-500 -mt-1">سفال و سرامیک دست‌ساز</span>
+  </div>
+</Link>
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             <Link href="/" className="text-earth-700 hover:text-clay-600 transition-colors font-medium text-sm">
