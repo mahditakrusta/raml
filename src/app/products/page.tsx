@@ -84,32 +84,36 @@ export default async function ProductsPage({ searchParams }: Props) {
   return (
     <div className="min-h-screen bg-sand-50">
       {/* Page Header */}
-      <div className="bg-gradient-to-b from-earth-950 to-earth-900 text-white py-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-         <div className="relative h-[450px] w-full">
+      <div className="relative h-[420px] overflow-hidden">
   <img
-    src="https://raml-word.onrender.com/banner.jpg"
+    src="https://raml-word.onrender.com/hero.jpg"
     alt="Products"
-    className="h-full w-full object-cover"
+    className="absolute inset-0 h-full w-full object-cover"
   />
-  <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-    <h1 className="text-5xl font-bold text-white">
-      Our Collection
-    </h1>
+
+  <div className="absolute inset-0 bg-black/50" />
+
+  <div className="relative z-10 flex h-full items-center">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 className="text-4xl md:text-5xl font-bold text-white">
+        {currentCategory
+          ? currentCategory.name
+          : search
+          ? `جستجو: ${search}`
+          : "همه محصولات"}
+      </h1>
+
+      <p className="text-sand-200 mt-4 text-lg">
+        {currentCategory?.description ||
+          "مجموعه کامل سفال و سرامیک دست‌ساز رَمل"}
+      </p>
+
+      <div className="mt-4 text-sand-300">
+        {allProducts.length} محصول
+      </div>
+    </div>
   </div>
 </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <h1 className="text-3xl md:text-4xl font-bold">
-            {currentCategory ? currentCategory.name : search ? `جستجو: ${search}` : "همه محصولات"}
-          </h1>
-          <p className="text-sand-300 mt-3 text-lg">
-            {currentCategory?.description || "مجموعه کامل سفال و سرامیک دست‌ساز رَمل"}
-          </p>
-          <div className="flex items-center gap-2 mt-4 text-sm text-sand-400">
-            <span>{allProducts.length} محصول</span>
-          </div>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <ProductsGrid
