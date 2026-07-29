@@ -86,7 +86,7 @@ export default async function ProductsPage({ searchParams }: Props) {
       {/* Page Header */}
      <div className="relative text-white py-16 overflow-hidden">
        <img
-  src="/images/products-banner.jpg"
+  src="https://raml-word.onrender.com/banner.jpg"
   alt="Products Banner"
   className="absolute inset-0 w-full h-full object-cover -z-10"
 />
