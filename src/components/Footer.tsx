@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-clay-500 to-clay-700 flex items-center justify-center">
-                <span className="text-white text-lg font-bold">ر</span>
+                <span className="text-white text-lg font-bold">https://raml-word.onrender.com/logo.png</span>
               </div>
               <span className="text-2xl font-bold text-white">رَمل</span>
             </div>
