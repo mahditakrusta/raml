@@ -10,11 +10,13 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-clay-500 to-clay-700 flex items-center justify-center">
                 <span className="text-white text-lg font-bold">
-                  <img
+                   {/* Logo */}
+         <Link href="/" className="flex items-center gap-2 group">
+  <img
   src="/logo.png"
   alt="رَمل"
-  className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-full"/
-                    >
+  className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-full"
+/>
               </div>
               <span className="text-2xl font-bold text-white">رَمل</span>
             </div>
