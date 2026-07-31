@@ -5,24 +5,24 @@ export default function Footer() {
     <footer className="bg-earth-950 text-earth-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* Brand */}
+          {/* Brand /}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-clay-500 to-clay-700 flex items-center justify-center">
-                <span className="text-white text-lg font-bold">
-                   {/* Logo */}
-          {/* Logo */}
-         <Link href="/" className="flex items-center gap-2 group">
-  <img
-  src="/logo.png"
-  alt="رَمل"
-  className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-full"
-/>
-  <div className="flex flex-col">
-    <span className="text-xl md:text-2xl font-bold text-clay-800 tracking-tight">رَمل</span>
-    <span className="text-[10px] md:text-xs text-earth-500 -mt-1">رَمل، برند سفال و سرامیک دست‌ساز ایرانی. هر قطعه با عشق و هنر ساخته شده تا زیبایی را به خانه شما بیاورد.</span>
-  </div>
-</Link>
+            <Link href="/" className="flex items-center gap-3 mb-4 group">
+              <img
+                src="/logo.png"
+                alt="رَمل"
+                className="w-12 h-12 object-cover rounded-full"
+              />
+              <span className="text-xl font-bold text-white tracking-tight">
+                رَمل
+              </span>
+            </Link>
+            <p className="text-earth-400 text-sm leading-relaxed">
+              رَمل، برند سفال و سرامیک دست‌ساز ایرانی. هر قطعه با عشق و هنر ساخته
+              شده تا زیبایی را به خانه شما بیاورد.
+            </p>
+          </div>
+
 
           {/* Links */}
           <div>
